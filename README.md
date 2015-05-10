@@ -11,7 +11,9 @@ designations present there.
 
 Installation
 ------------
-1. Copy the colorscheme files to ~/.kde4/share/apps/konsole/. On your system this may be ~/.kde/ instead of ~/.kde4/.
+1. Copy the colorscheme files to konsole configuration directory (i.e. besides Shell.profile):
+   - On kde4 this may be ~/.kde4/share/apps/konsole/ (or may be ~/.kde/ instead of ~/.kde4/).
+   - On kde5, ~/.local/share/konsole/
 2. Open Konsole and select Settings -> Manage Profiles -> Edit Profile -> Appearance, then select either of the Solarized themes.
 3. Click OK, then close, and the Solarized settings should have taken effect.
 
